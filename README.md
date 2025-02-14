@@ -1,1 +1,5 @@
 // documentation for this website, sources, resources, ideas and such
+
+animation: https://www.w3schools.com/css/css3_animations.asp
+sidebar: https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
+font: https://fonts.google.com/selection/embed
