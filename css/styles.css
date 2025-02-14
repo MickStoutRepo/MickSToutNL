@@ -1,47 +1,58 @@
-/*
+/* Bismillah
 
-Blush Roze: #DE5D83
+Blush Roze: #FFA5AB
+Napels Yellow: #efde93
+Verdigris: #28AFB0
 Koolstof Zwart: #333333
-Licht Roze: #F4C2C2
-Grijs: #808080
-Pastel Roze: #FFB6C1
 Donker Zwart: #1C1C1C
 
  */
 
+@import "fonts.css";
+
 body {
-    font-family: "Arial Narrow", sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
 }
 
-nav {
-    background-color: #333333;
-    color: #DE5D83;
-    padding: 1em;
-    text-align: center;
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  /* z-index: 1; */
+  top: 0;
+  left: 0;
+  background-color: #333333;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-nav button {
-    background: none;
-    border: none;
-    color: #DE5D83;
-    cursor: pointer;
-    font-size: 2em;
-    margin: 0 1em;
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 40px;
+  color: #efde93;
+  display: block;
 }
 
-nav button:hover {
-    background: none;
-    border: none;
-    color: #F4C2C2;
-    cursor: pointer;
-    font-size: 2em;
-    margin: 0 1em;
+.sidenav a:hover {
+  color: #FFA5AB;
 }
 
-main {
-        }
+.sidenav a.bottom {
+    float: revert;
+}
+
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 .flexbox {
     margin: 50px auto;
@@ -50,7 +61,7 @@ main {
 }
 
 .divmain {
-    background-color: #F4C2C2;
+    background-color: #efde93;
     margin: 50px auto;
     padding: 20px;
     width: 600px;
@@ -59,5 +70,28 @@ main {
     border-style: solid;
     border-radius: 20px;
     border-width: 1px;
-    box-shadow: 10px 10px 10px 2px #808080;
+    box-shadow: 10px 10px 10px 2px black;
+    animation-name: divfade;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
+
+@keyframes divfade {
+    0%   {background-color: #ecdfbe;}
+    25%  {background-color: #ecdea6;}
+    50%  {background-color:#efde93;}
+    75%  {background-color: #ecdea6;}
+    100%   {background-color: #ecdfbe;}
+}
+
+
+/*
+
+ Blush Roze: #FFA5AB
+Napels Yellow: #efde93
+Verdigris: #28AFB0
+Koolstof Zwart: #333333
+Donker Zwart: #1C1C1C
+
+ Elhamdulillah */
