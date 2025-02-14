@@ -1,0 +1,63 @@
+/*
+
+Blush Roze: #DE5D83
+Koolstof Zwart: #333333
+Licht Roze: #F4C2C2
+Grijs: #808080
+Pastel Roze: #FFB6C1
+Donker Zwart: #1C1C1C
+
+ */
+
+body {
+    font-family: "Arial Narrow", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333333;
+    color: #DE5D83;
+    padding: 1em;
+    text-align: center;
+}
+
+nav button {
+    background: none;
+    border: none;
+    color: #DE5D83;
+    cursor: pointer;
+    font-size: 2em;
+    margin: 0 1em;
+}
+
+nav button:hover {
+    background: none;
+    border: none;
+    color: #F4C2C2;
+    cursor: pointer;
+    font-size: 2em;
+    margin: 0 1em;
+}
+
+main {
+        }
+
+.flexbox {
+    margin: 50px auto;
+    align-content: center;
+    align-items: center;
+}
+
+.divmain {
+    background-color: #F4C2C2;
+    margin: 50px auto;
+    padding: 20px;
+    width: 600px;
+    height: 600px;
+    border-color: #333333;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    box-shadow: 10px 10px 10px 2px #808080;
+}
