@@ -31,9 +31,11 @@ h1 {
 }
 
 .contentportfolio {
+  margin-top: 20px;
   background-color: #333333;
   padding: 10px;
   color: #FFA5AB;
+  border-radius: 10px;
 }
 
 .show {
