@@ -1,0 +1,67 @@
+/* Bishmillah */
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contentportfolio {
+  background-color: white;
+  padding: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #efde93;
+}
+
+.btn.active {
+  background-color: #28AFB0;
+   color: #333333;
+}
+
+/*
+
+ Blush Roze: #FFA5AB
+Napels Yellow: #efde93
+Verdigris: #28AFB0
+Koolstof Zwart: #333333
+Donker Zwart: #1C1C1C
+
+ Elhamdulillah */

@@ -9,6 +9,7 @@ Donker Zwart: #1C1C1C
  */
 
 @import "fonts.css";
+@import "portfolio.css";
 
 body {
     font-family: "Poppins", sans-serif;
@@ -18,7 +19,7 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 250px;
+  width: 200px;
   position: fixed;
   /* z-index: 1; */
   top: 0;
@@ -45,6 +46,7 @@ body {
 }
 
 .main {
+    max-width: 1000px;
     margin-left: 160px;
     padding: 0px 10px;
 }
@@ -54,37 +56,9 @@ body {
   .sidenav a {font-size: 18px;}
 }
 
-.flexbox {
-    margin: 50px auto;
-    align-content: center;
-    align-items: center;
+.divportfolio {
+    margin-left: 250px;
 }
-
-.divmain {
-    background-color: #efde93;
-    margin: 50px auto;
-    padding: 20px;
-    width: 600px;
-    height: 600px;
-    border-color: #333333;
-    border-style: solid;
-    border-radius: 20px;
-    border-width: 1px;
-    box-shadow: 10px 10px 10px 2px black;
-    animation-name: divfade;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes divfade {
-    0%   {background-color: #ecdfbe;}
-    25%  {background-color: #ecdea6;}
-    50%  {background-color:#efde93;}
-    75%  {background-color: #ecdea6;}
-    100%   {background-color: #ecdfbe;}
-}
-
 
 /*
 
