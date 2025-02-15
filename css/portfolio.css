@@ -20,7 +20,7 @@ h1 {
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 32%;
   display: none;
 }
 
@@ -31,8 +31,9 @@ h1 {
 }
 
 .contentportfolio {
-  background-color: white;
+  background-color: #333333;
   padding: 10px;
+  color: #FFA5AB;
 }
 
 .show {
@@ -43,7 +44,8 @@ h1 {
   border: none;
   outline: none;
   padding: 12px 16px;
-  background-color: white;
+  background-color: #333333;
+  color: #FFA5AB;
   cursor: pointer;
 }
 
@@ -55,6 +57,7 @@ h1 {
   background-color: #28AFB0;
    color: #333333;
 }
+
 
 /*
 

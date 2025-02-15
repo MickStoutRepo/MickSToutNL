@@ -8,13 +8,16 @@ Donker Zwart: #1C1C1C
 
  */
 
-@import "fonts.css";
-@import "portfolio.css";
-
 body {
     font-family: "Poppins", sans-serif;
+    background-color: #FFA5AB;
     margin: 0;
-    padding: 0;
+    padding: 20;
+}
+
+.main {
+    max-width: 1000px;
+    margin-left: 160px;
 }
 
 .sidenav {
@@ -33,23 +36,37 @@ body {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 40px;
-  color: #efde93;
+  color: #FFA5AB;
   display: block;
 }
 
-.sidenav a:hover {
+a:link {
   color: #FFA5AB;
 }
 
-.sidenav a.bottom {
-    float: revert;
+a:hover {
+  color: #efde93;
 }
 
-.main {
-    max-width: 1000px;
-    margin-left: 160px;
-    padding: 0px 10px;
+a.one:link {
+    color: #FFA5AB;
 }
+
+a.one:hover {
+    color: #efde93;
+}
+
+a.one:visited {
+    color: #efde93;
+}
+
+
+
+/* .sidenav a:hover {
+  color: #FFA5AB;
+}
+
+ */
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
