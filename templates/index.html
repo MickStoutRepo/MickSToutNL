@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/portfolio.css">
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="/css/halalhamburgermenu.css">
+    <link rel="stylesheet" href="/css/chatbot.css">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,12 +17,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<!-- desktop menu -->
 <div class="sidenav">
     <a href="https://www.linkedin.com/in/mick-stout/" target="_blank">LinkedIn</a>
     <a href="https://github.com/MickStoutRepo" target="_blank">GitHub</a>
     <a href="mailto:mick@mickstout.nl" target="_blank">Contact</a>
     <a href="#">Chat</a>
 </div>
+<!-- Mobile Menu -->
 <div class="halalhamburger">
   <a href="#home" class="active"><br></a>
     <div id="hammenu">
@@ -34,6 +37,7 @@
     <i class="fa fa-bars"></i>
   </a>
 </div>
+<!-- Portfolio -->
 <div class="divportfolio">
      <h2>Mick Stout: Development Portefolio</h2><br>
 <div id="myBtnContainer">
@@ -42,8 +46,6 @@
   <button class="btn" onclick="filterSelection('C#')"> C# / .NET</button>
   <button class="btn" onclick="filterSelection('LowCode')"> Low-Code</button>
 </div>
-
-<!-- Portfolio -->
 <div class="row">
   <div class="column Python">
     <div class="contentportfolio">
@@ -68,6 +70,16 @@
   </div>
 </div>
 </div>
+<!-- Chatbot -->
+<div id="chatbot" class="hidden">
+        <div id="chatWindow">
+            <div id="chatContent"></div>
+            <input type="text" id="chatInput" placeholder="Typ hier je antwoord...">
+            <button id="sendButton">Verzenden</button>
+        </div>
+    </div>
+    <div id="chatIcon" onclick="toggleChat()">💬</div>
+    <script src="/js/chatbot.js"></script>
     <script src="/js/portfolio.js"></script>
     <script src="/js/halalhamburger.js"></script>
 </body>
