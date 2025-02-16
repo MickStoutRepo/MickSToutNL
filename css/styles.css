@@ -5,8 +5,7 @@ Napels Yellow: #efde93
 Verdigris: #28AFB0
 Koolstof Zwart: #333333
 Donker Zwart: #1C1C1C
-
- */
+*/
 
 body {
     font-family: "Poppins", sans-serif;
@@ -60,29 +59,32 @@ a.one:visited {
     color: #efde93;
 }
 
-
-
 /* .sidenav a:hover {
   color: #FFA5AB;
+} */
+
+@media screen and (max-width: 768px) {
+  .sidenav {
+      visibility: hidden;
+  }
+  .divportfolio {
+      margin-left: 20px;
+  }
 }
 
- */
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+@media screen and (min-width: 769px) {
+  .sidenav {
+    visibility: visible;
+  }
+  .divportfolio {
+      margin-left: 250px;
+  }
 }
 
-.divportfolio {
-    margin-left: 250px;
-}
-
-/*
-
- Blush Roze: #FFA5AB
+/* Blush Roze: #FFA5AB
 Napels Yellow: #efde93
 Verdigris: #28AFB0
 Koolstof Zwart: #333333
 Donker Zwart: #1C1C1C
 
- Elhamdulillah */
+Elhamdulillah */
