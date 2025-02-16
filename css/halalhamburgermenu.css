@@ -16,10 +16,11 @@
   overflow: hidden;
   background-color: #333;
   position: relative;
+  left: 0;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-.halalhamburger #myLinks {
+.halalhamburger #hammenu {
   display: none;
 }
 
@@ -28,7 +29,7 @@
   color: #FFA5AB;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   display: block;
 }
 
