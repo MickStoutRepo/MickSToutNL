@@ -59,10 +59,6 @@ a.one:visited {
     color: #efde93;
 }
 
-/* .sidenav a:hover {
-  color: #FFA5AB;
-} */
-
 @media screen and (max-width: 768px) {
   .sidenav {
       visibility: hidden;

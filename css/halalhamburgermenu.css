@@ -19,12 +19,10 @@
   left: 0;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
 .halalhamburger #hammenu {
   display: none;
 }
 
-/* Style navigation menu links */
 .halalhamburger a {
   color: #FFA5AB;
   padding: 14px 16px;
@@ -33,7 +31,6 @@
   display: block;
 }
 
-/* Style the hamburger menu */
 .halalhamburger a.icon {
   background: black;
   display: block;
@@ -42,13 +39,11 @@
   top: 0;
 }
 
-/* Add a grey background color on mouse-over */
 .halalhamburger a:hover {
   background-color: #FFA5AB;
   color: #333333;
 }
 
-/* Style the active link (or home/logo) */
 .active {
   background-color: #FFA5AB;
   color: #FFA5AB;

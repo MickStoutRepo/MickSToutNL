@@ -7,3 +7,4 @@ portfolio galery: https://www.w3schools.com/howto/howto_js_portfolio_filter.asp 
 hamburger: https://www.w3schools.com/css/css3_mediaqueries.asp#gsc.tab=0 <br>
 php: https://www.w3schools.com/php/php_file_create.asp <br>
 colorscheme: https://coolors.co
+
