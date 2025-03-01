@@ -38,26 +38,26 @@ function handleUserInput() {
         case 3:
             userData.phone = input;
             chatContent.innerHTML += `<div class="bot-message">Bedankt voor de informatie! We nemen snel contact met je op.</div>`;
-            sendEmail(userData);
+            sendLog(userData);
             break;
     }
     step++;
 }
 
-function sendEmail(data) {
+function sendLog(data) {
     const formData = new FormData();
     formData.append('name', data.name);
     formData.append('reason', data.reason);
     formData.append('email', data.email);
     formData.append('phone', data.phone);
 
-    fetch('send_email.php', {
+    fetch('php/log_contact.php', {
         method: 'POST',
         body: formData
     })
     .then(response => response.text())
     .then(result => {
-        console.log('E-mail verzonden:', result);
+        console.log('Log opgeslagen:', result);
     })
     .catch(error => {
         console.error('Error:', error);
